@@ -1,0 +1,34 @@
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title></title>>
+
+<body>
+
+</head>
+Welcome to my first home page on django
+</body>
+ <!-- action is where we wanna go after we submit  -->
+<form action="{% url 'result' %}">
+    {% csrf_token $}
+    context_switch(bool 1 or 0) <input type="text" required name="context_switch"><br><br>
+    session_length(int between 1 and 20): <input type="text" required name="session_length"><br><br>
+    session_position(int between 1 and 20): <input type="text" required name="session_position"><br><br>
+    no_pause_before_play (bool 1 or 0) <input type="text" required name="no_pause_before_play"><br><br>
+    hist_user_behavior_is_shuffle(bool 0 or 1)<input type="text" required name="hist_user_behavior_is_shuffle"><br><br>
+    hist_user_behavior_n_seekfwd(int 0-38 or more)<input type="text" required name="hist_user_behavior_n_seekfwd"><br><br>
+    hist_user_behavior_n_seekback(int 0-151)<input type="text" required name="hist_user_behavior_n_seekback"><br><br>
+    hour_of_day<input type="text" required name="hour_of_day"><br><br>
+    released_year<input type="text" required name="released_year"><br><br>
+    context_type(int from 0 to  5)<input type="text" required name="context_type"><br><br>
+    premium(bool 0 or 1)<input type="text" required name="premium"><br><br>
+    hist_user_behavior_reason_start (int from 0 to 8) <input type="text" required name="hist_user_behavior_reason_start"><br><br>
+    hist_user_behavior_reason_end (int from 0 to 6)<input type="text" required name="hist_user_behavior_reason_end"><br><br>
+
+<input type="submit" name="" value="submit">
+
+
+
+</form>
+</html>
