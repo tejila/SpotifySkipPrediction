@@ -12,7 +12,7 @@ Welcome to my first home page on django
  <!-- action is where we wanna go after we submit  -->
 <form action="{% url 'result' %}">
     {% csrf_token $}
-    context_switch(bool 1 or 0) <input type="text" required name="context_switch"><br><br>
+    context_switch(bool 1 or 0) <input type="text" required name="context_switch"> <br><br>
     session_length(int between 1 and 20): <input type="text" required name="session_length"><br><br>
     session_position(int between 1 and 20): <input type="text" required name="session_position"><br><br>
     no_pause_before_play (bool 1 or 0) <input type="text" required name="no_pause_before_play"><br><br>
@@ -27,8 +27,6 @@ Welcome to my first home page on django
     hist_user_behavior_reason_end (int from 0 to 6)<input type="text" required name="hist_user_behavior_reason_end"><br><br>
 
 <input type="submit" name="" value="submit">
-
-
 
 </form>
 </html>
