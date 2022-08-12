@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-79kfn=twyfwur!_vic7b5+ivy=qa*wd2op!55sl4umlidqs$mo
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['https://spotify-skip-pred.herokuapp.com/', '127.0.0.1']
+ALLOWED_HOSTS = ['spotify-skip-pred.herokuapp.com/', '127.0.0.1']
 
 
 # Application definition
